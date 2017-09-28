@@ -3,7 +3,7 @@ require_once('ses.php');
 $ses = new SimpleEmailService('XXXXXXXXXXXXXXX', 'XXXXXXXXXXXXXXXXXXXXXX');
 $file=$argv[1];
 
-// Sample Comment
+// Sample Comment A
 
 
 $user_list= fopen($file, "r");
